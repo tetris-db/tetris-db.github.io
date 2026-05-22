@@ -10,18 +10,15 @@
     </filter>
   </defs>
   <rect width="32" height="32" fill="#0A0A14"/>
-  <!-- T shape — cyan I-piece, block=3px gap=1px, 6.5px padding all sides -->
+  <!-- T shape — 3 wide × 4 tall, block=3px gap=1px, centred in 32×32 -->
   <g fill="#00F0F0" filter="url(#glow)">
-    <!-- Top bar -->
-    <rect x="6.5"  y="6.5" width="3" height="3"/>
-    <rect x="10.5" y="6.5" width="3" height="3"/>
-    <rect x="14.5" y="6.5" width="3" height="3"/>
-    <rect x="18.5" y="6.5" width="3" height="3"/>
-    <rect x="22.5" y="6.5" width="3" height="3"/>
-    <!-- Stem (centre column) -->
-    <rect x="14.5" y="10.5" width="3" height="3"/>
-    <rect x="14.5" y="14.5" width="3" height="3"/>
-    <rect x="14.5" y="18.5" width="3" height="3"/>
-    <rect x="14.5" y="22.5" width="3" height="3"/>
+    <!-- Top bar (3 wide) -->
+    <rect x="10.5" y="8.5" width="3" height="3"/>
+    <rect x="14.5" y="8.5" width="3" height="3"/>
+    <rect x="18.5" y="8.5" width="3" height="3"/>
+    <!-- Stem (centre column, rows 2–4) -->
+    <rect x="14.5" y="12.5" width="3" height="3"/>
+    <rect x="14.5" y="16.5" width="3" height="3"/>
+    <rect x="14.5" y="20.5" width="3" height="3"/>
   </g>
 </svg>
