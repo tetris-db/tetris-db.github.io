@@ -7,6 +7,20 @@
     <title>Tetris</title>
     <link href="./bootstrap.css" rel="stylesheet">
     <style>
+        body {
+            background-color: #0A0A14;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Crect width='16' height='16' fill='none' stroke='rgba(255,255,255,0.04)' stroke-width='0.5'/%3E%3C/svg%3E");
+            color: white;
+        }
+
+        a {
+            color: #7aacf7;
+        }
+
+        a:hover {
+            color: #a8c8ff;
+        }
+
         .container {
             display: block;
             margin-left: auto;
@@ -23,9 +37,6 @@
             justify-content: center;
             align-items: center;
             width: 100%;
-            background-image: url("./background.png");
-            background-position: center;
-            background-repeat: repeat;
             height: 200px;
         }
 
@@ -53,24 +64,21 @@
 
         .citation-container {
             width: 100%;
-            background-color: rgb(246, 248, 250);
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 5px;
         }
 
         code.language-latex {
-            /* display: block;
-            padding: 10px;
-            white-space: pre-wrap;
-            word-break: break-word; */
-            color: rgb(21, 47, 101);
+            color: rgb(180, 200, 240);
         }
 
         .bibtex-tag {
-            color: rgb(190, 53, 54);
+            color: rgb(220, 100, 100);
         }
 
         .bibtex-name {
-            color: rgb(96, 60, 179);
+            color: rgb(160, 130, 230);
         }
 
         @media (max-width: 600px) {
@@ -83,7 +91,6 @@
             }
 
             .logo-container {
-                background-image: url("./background-small.png");
                 height: 120px;
             }
 
