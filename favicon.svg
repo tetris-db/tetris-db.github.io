@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <defs>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -10,18 +10,18 @@
     </filter>
   </defs>
   <rect width="32" height="32" fill="#0A0A14"/>
-  <!-- T shape — cyan I-piece, 5 blocks wide × 5 blocks tall, block=4px gap=2px -->
+  <!-- T shape — cyan I-piece, block=3px gap=1px, 6.5px padding all sides -->
   <g fill="#00F0F0" filter="url(#glow)">
     <!-- Top bar -->
-    <rect x="2"  y="2" width="4" height="4"/>
-    <rect x="8"  y="2" width="4" height="4"/>
-    <rect x="14" y="2" width="4" height="4"/>
-    <rect x="20" y="2" width="4" height="4"/>
-    <rect x="26" y="2" width="4" height="4"/>
+    <rect x="6.5"  y="6.5" width="3" height="3"/>
+    <rect x="10.5" y="6.5" width="3" height="3"/>
+    <rect x="14.5" y="6.5" width="3" height="3"/>
+    <rect x="18.5" y="6.5" width="3" height="3"/>
+    <rect x="22.5" y="6.5" width="3" height="3"/>
     <!-- Stem (centre column) -->
-    <rect x="14" y="8"  width="4" height="4"/>
-    <rect x="14" y="14" width="4" height="4"/>
-    <rect x="14" y="20" width="4" height="4"/>
-    <rect x="14" y="26" width="4" height="4"/>
+    <rect x="14.5" y="10.5" width="3" height="3"/>
+    <rect x="14.5" y="14.5" width="3" height="3"/>
+    <rect x="14.5" y="18.5" width="3" height="3"/>
+    <rect x="14.5" y="22.5" width="3" height="3"/>
   </g>
 </svg>
